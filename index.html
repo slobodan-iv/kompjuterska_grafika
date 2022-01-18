@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather|Tangerine|Caveat" rel="stylesheet">
+    <!-- Bootstrap CSS
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Компјутерска графика!</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="Pictures/logo3.png" width="90" height="60" class="d-inline-block align-top rounded" alt="M3Design"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="https://slobodan-iv.github.io/2D_grafika/">Компјутерска графика - 2D</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                Компјутерска графика - 3D
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="https://slobodan-iv.github.io/rucna_dizalica/modeli_crtezi.html">Моделирање ручне дизалице</a>
+                </li>
+                <li>
+                  <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Моделирање ручног свалакача</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><!-- navbar -->
+    <!-- container -->
+    <div class="container">
+      <!-- Content here -->
+      <div>
+        <h1>Компјутерска графика</h1>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-12 col-md-11 col-lg-10">
+            <div class="accordion" id="kompjuterska_grafika">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="kompjuterska_grafika_2D">
+                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_kompjuterska_grafika_2D" aria-expanded="true" aria-controls="collapse_kompjuterska_grafika_2D">
+                    Компјутерска графика - 2D:
+                  </button>
+                </h2>
+                <div id="collapse_kompjuterska_grafika_2D" class="accordion-collapse collapse show" aria-labelledby="kompjuterska_grafika_2D" data-bs-parent="#kompjuterska_grafika">
+                  <div class="accordion-body">
+                    <ul class="nav nav-tabs" id="kompjuterska_grafika_2D_tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="vrste_linija-tab" data-bs-toggle="tab" data-bs-target="#vrste_linija" type="button" role="tab" aria-controls="vrste_linija" aria-selected="true">Врсте и дебљине линија</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="zaglavlje_tekst-tab" data-bs-toggle="tab" data-bs-target="#zaglavlje_tekst" type="button" role="tab" aria-controls="zaglavlje_tekst" aria-selected="true">Заглавље</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="srafura_i_kotiranje-tab" data-bs-toggle="tab" data-bs-target="#srafura_i_kotiranje" type="button" role="tab" aria-controls="srafura_i_kotiranje" aria-selected="true">Шрафура и котирање</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="crtez_vratila-tab" data-bs-toggle="tab" data-bs-target="#crtez_vratila" type="button" role="tab" aria-controls="crtez_vratila" aria-selected="true">Цртеж вратила</button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="kompjuterska_grafika_2D_TabContent">
+                      <div class="tab-pane show active" id="vrste_linija" role="tabpanel" aria-labelledby="vrste_linija-tab">
+                        <img src="Pictures/Crtezi/linije.jpg" width="100%" alt="Цртеж са дебљинама линија">
+                      </div>
+                      <div class="tab-pane" id="zaglavlje_tekst" role="tabpanel" aria-labelledby="zaglavlje_tekst-tab">
+                        <img src="Pictures/Crtezi/linije_zaglavlje.jpg" width="100%" alt="Цртеж са дебљинама линија">
+                      </div>
+                      <div class="tab-pane" id="srafura_i_kotiranje" role="tabpanel" aria-labelledby="srafura_i_kotiranje-tab">
+                        <img src="Pictures/Crtezi/srafura_kote.jpg" width="100%" alt="Цртеж са дебљинама линија, шрафуром и котама">
+                      </div>
+                      <div class="tab-pane" id="crtez_vratila" role="tabpanel" aria-labelledby="crtez_vratila-tab">
+                        <img src="Pictures/Crtezi/pogonsko_vratilo.jpg" width="100%" alt="Цртеж погонског вратила">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="kompjuterska_grafika_3D">
+                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_kompjuterska_grafika_3D" aria-expanded="true" aria-controls="collapse_kompjuterska_grafika_3D">
+                    Компјутерска графика - 3D (покретни навојни спојеви):
+                  </button>
+                </h2>
+                <div id="collapse_kompjuterska_grafika_3D" class="accordion-collapse collapse" aria-labelledby="kompjuterska_grafika_3D" data-bs-parent="#kompjuterska_grafika">
+                  <div class="accordion-body">
+                    <ul class="nav nav-tabs" id="kompjuterska_grafika_3D_tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="rd_sa_kozmetickim_navojem-tab" data-bs-toggle="tab" data-bs-target="#rd_sa_kozmetickim_navojem" type="button" role="tab" aria-controls="rd_sa_kozmetickim_navojem" aria-selected="true">Ручна дизалица са козметичким навојем</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="rd_sa_stvarnim_navojem-tab" data-bs-toggle="tab" data-bs-target="#rd_sa_stvarnim_navojem" type="button" role="tab" aria-controls="rd_sa_stvarnim_navojem" aria-selected="true">Ручна дизалица са стварним навојем</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="rucni_svlakac-tab" data-bs-toggle="tab" data-bs-target="#rucni_svlakac" type="button" role="tab" aria-controls="rucni_svlakac" aria-selected="true">Ручни свлакач - Радапцигер</button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="kompjuterska_grafika_3D_TabContent">
+                      <div class="tab-pane show active" id="rd_sa_kozmetickim_navojem" role="tabpanel" aria-labelledby="rd_sa_kozmetickim_navojem-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/VvsJVWh59-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="rd_sa_stvarnim_navojem" role="tabpanel" aria-labelledby="rd_sa_stvarnim_navojem-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/G1m5gG0byy8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="rucni_svlakac" role="tabpanel" aria-labelledby="rucni_svlakac-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/bycFCiPv1M4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <nav class="card-header" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">&copy; Slobodan Ivković</li>
+                  <li class="breadcrumb-item"><a href="https://www.linkedin.com/in/slobodan-ivkovic-a08326ba"><img src="Pictures/Icons/linkedin.png" alt="linkedin logo"></a></li>
+                  <li class="breadcrumb-item"><a href="https://twitter.com/slobodan_iv"><img src="Pictures/Icons/twitter.png" alt="twitter logo"></a></li>
+                  <li class="breadcrumb-item"><a href="https://www.youtube.com/user/Mickijedini"><img src="Pictures/Icons/youtube.png" alt="youtube logo"></a></li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- container -->
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
